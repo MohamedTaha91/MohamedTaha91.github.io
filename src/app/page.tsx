@@ -3,14 +3,15 @@ import webDev from "../../public/profilePictures/webDev.jpg";
 import webDchemicalEngineerev from "../../public/profilePictures/chemicalEngineer.jpg";
 import hobbies from "../../public/profilePictures/hobbies.jpg";
 import reactLogo from "../../public/Logos/reactLogo.png";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <div className="details">
       <div className="menu">
-        <h3>About me</h3>
-        <h3>Skills</h3>
-        <h3>Contact</h3>
+        <Link href={"/"}>About me</Link>
+        <Link href={"/skills"}>Skills</Link>
+        <Link href={"/contact"}>Contact</Link>
       </div>
       <div className="carousel">
         <Image
