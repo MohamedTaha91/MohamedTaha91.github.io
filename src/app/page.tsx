@@ -8,11 +8,6 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="details">
-      <div className="menu">
-        <Link href={"/"}>About me</Link>
-        <Link href={"/skills"}>Skills</Link>
-        <Link href={"/contact"}>Contact</Link>
-      </div>
       <div className="carousel">
         <Image
           className="hero-Image"
