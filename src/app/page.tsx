@@ -3,37 +3,40 @@ import webDev from "../../public/profilePictures/webDev.jpg";
 import webDchemicalEngineerev from "../../public/profilePictures/chemicalEngineer.jpg";
 import hobbies from "../../public/profilePictures/hobbies.jpg";
 import reactLogo from "../../public/Logos/reactLogo.png";
-import Link from "next/link";
+import background from "./../../public/backgroundImage/background.png";
 
 export default function Home() {
   return (
     <div className="details">
       <div className="carousel">
         <Image
-          className="hero-Image"
+          className="heroImage"
           src={reactLogo}
           alt="hero image"
-          width={100}
-          height={100}
+          width={230}
+          height={200}
         ></Image>
-        <div className="small-carousel">
+        <div className="smallCarousel">
           <Image
+            className="webDev"
             src={webDev}
             alt="webDev profile picture"
-            height={50}
-            width={50}
+            height={60}
+            width={60}
           />
           <Image
+            className="chemicalEngineering"
             src={webDchemicalEngineerev}
             alt="webDev profile picture"
-            height={50}
-            width={50}
+            height={60}
+            width={60}
           />
           <Image
+            className="hobbies"
             src={hobbies}
             alt="webDev profile picture"
-            height={50}
-            width={50}
+            height={60}
+            width={60}
           />
         </div>
       </div>

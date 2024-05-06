@@ -21,6 +21,7 @@ export default function Skills() {
       </div>
       <div className="projects">
         <h1 className="projectsTitle">Projects :</h1>
+
         {PROJECTS.map(({ className, alt, src }) => (
           <Image
             className={className}
