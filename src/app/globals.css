@@ -5,6 +5,9 @@
 #09171E = coal,
 #71B7D5 = ice  
 */
+body {
+  margin: 0;
+}
 
 .htmlContainer {
   display: flex;
@@ -12,38 +15,45 @@
 }
 
 .details {
+  background-color: #096b90;
   display: flex;
-  height: 100vh;
+  height: 110vh;
   width: 100vw;
   flex-direction: column;
+  margin: 0;
 }
 
-.navBarContainer {
-  background-color: #71b7d5;
+.navbarContainer {
+  margin: 0;
 }
+
 .menu {
-  background-color: #096b90;
+  font-size: 22px;
+  background-color: #71b7d5;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   width: 100%;
   align-items: center;
   height: 10vh;
+  color: whitesmoke;
 }
 
 .carousel {
-  background-color: #09171e;
+  border: 2px, whitesmoke;
+  background-color: #096b90;
   display: flex;
-  height: 40%;
+  height: 40vh;
   width: 100%;
+  align-items: center;
   justify-content: space-around;
   align-content: space-between;
-  gap: 7%;
   padding: 30px;
+  border-radius: 5px;
 }
 
 .smallCarousel {
-  background-color: #71b7d5;
+  background-color: #096b90;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -51,10 +61,10 @@
   width: 40%;
   position: relative;
   align-items: center;
-  margin: 5% 20% 0 0;
-  border-radius: 12px;
+  margin: 5% 26% 0 0;
+  border-radius: 5px;
   border: #09171e;
-  border-width: 10px;
+  border-width: 20px;
 }
 
 .hero-Image {
@@ -73,15 +83,20 @@
 }
 
 .description-Title {
+  color: whitesmoke;
+  background-color: #042b44;
   display: flex;
   height: 50px;
   width: 100%;
   align-content: center;
   justify-content: center;
   padding: 40px;
+  font-size: 40px;
 }
 
 .description-Text {
+  color: whitesmoke;
+  background-color: #09171e;
   display: flex;
   height: 30vh;
   align-content: center;
@@ -96,6 +111,7 @@
   width: 100vw;
   flex-direction: column;
   align-items: center;
+  background-color: aliceblue;
 }
 
 .skills-title {
@@ -114,6 +130,7 @@
   margin-right: auto;
   align-content: space-between;
   gap: 120px;
+  background-color: aliceblue;
 }
 
 .languageTitle {
@@ -174,7 +191,7 @@
 }
 
 .samuraiAvatar {
-  border-radius: 10 px;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   box-sizing: border-box;
